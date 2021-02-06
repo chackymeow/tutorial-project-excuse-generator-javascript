@@ -10,5 +10,5 @@ random1 = Math.floor(Math.random()*4);
 random2 = Math.floor(Math.random()*3);
 random3 = Math.floor(Math.random()*4);
 
-final = who[random] +" "+ action[random1] +" "+ what[random2] +" "+ when[random3];git 
+final = who[random] +" "+ action[random1] +" "+ what[random2] +" "+ when[random3];
 document.getElementById("enviar").innerHTML = final;
