@@ -5,10 +5,10 @@ let when = ['before the class', 'right on time', 'when I finished', 'during my l
 
 let random = 0; let random1 = 0; let random2 = 0; let random3 = 0;
 
-random = Math.floor(Math.random()*4);
-random1 = Math.floor(Math.random()*4);
-random2 = Math.floor(Math.random()*3);
-random3 = Math.floor(Math.random()*4);
+random = Math.floor(Math.random()*who.length);
+random1 = Math.floor(Math.random()*action.length);
+random2 = Math.floor(Math.random()*what.length);
+random3 = Math.floor(Math.random()*when.length);
 
 final = who[random] +" "+ action[random1] +" "+ what[random2] +" "+ when[random3];
 document.getElementById("enviar").innerHTML = final;
